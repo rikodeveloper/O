@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+
+}
+.caixa-principal {
+    height:100%;
+    width: 100%;
+    background-image: url(./imagens/portifolio.png);
+    background-color: #191919;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.potifolio {
+    color: white;
+    font: 35px;
+    font-size: 40;
+    font-weight: 500;
+}
+
+.portifolio spam {
+    color :#f9004d
+}
+
+li {
+    color: white;
+    list-style: none;
+    display: inline block;
+    font-size: 25px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 60px 15%;
+    background-color: #191919;
+    height:100%;
+    width: 100%;
+}
+
+section img{
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid#f9004d;
+    margin-right: 30px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+section div h2 {
+    color: white;
+    font-size:50px;
+}
+
+section div p {
+    color: yellow;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+section div button{
+    background: #f9004d;
+    color: white;
+    font-size: 13px;
+    width: 160px;
+    height: 30px;
+    border-radius: 26px;
+    justify-content: space-between;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+section div button:hover {
+    background-color: rgb(15, 217, 4);
+    transition: 0.5s;
+}
